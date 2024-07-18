@@ -21,7 +21,7 @@ pip install easyocr
 pip install opencv-python-headless
 pip install numpy
 pip install matplotlib
-
+```
 
 [EN]
 
@@ -46,4 +46,5 @@ pip install easyocr
 pip install opencv-python-headless
 pip install numpy
 pip install matplotlib
+
 
