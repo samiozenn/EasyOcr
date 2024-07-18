@@ -33,7 +33,13 @@ pip install matplotlib
 
 # OCR Image Text Extraction
 
-This project is designed to recognize and extract text from images using EasyOCR. The project reads image files in a specified folder, applies OCR, and saves the text results as separate `.txt` files for each image.
+This code is used to read image files from a specific folder, detect text within these images, and save the OCR (Optical Character Recognition) results into separate text files for each image. The main purpose of this code can be summarized as follows:
+
+1. **Read Image Files**: It reads `.jpg`, `.jpeg`, or `.png` files located in the `input` folder.
+2. **Apply OCR**: It uses the EasyOCR library to detect text within each image.
+3. **Save Results**: It saves the OCR results for each image into separate `.txt` files, which are stored in the `output` folder.
+4. **Combine Texts**: It combines texts that are close to each other on the y-axis to obtain more meaningful results.
+5. **Visualize Results**: It visualizes the processed images with bounding boxes around the detected texts and displays them.
 
 ## Requirements
 
