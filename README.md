@@ -2,7 +2,13 @@
 
 # OCR Image Text Extraction
 
-Bu proje, EasyOCR kullanarak görüntülerdeki metinleri tanıyıp çıkartmak için oluşturulmuştur. Bu proje, belirli bir klasördeki görüntü dosyalarını okur, OCR işlemi uygular ve her bir görüntü için metin sonuçlarını ayrı ayrı `.txt` dosyalarına kaydeder.
+Bu kod, belirli bir klasördeki görüntü dosyalarını okuyarak bu görüntülerdeki metinleri tespit etmek ve her bir görüntü için OCR (Optik Karakter Tanıma) sonuçlarını ayrı bir metin dosyasına kaydetmek için kullanılır. Kısaca kullanım amacı şu şekildedir:
+
+1. **Görüntü Dosyalarını Oku**: `input` klasöründe bulunan `.jpg`, `.jpeg`, veya `.png` dosyalarını okur.
+2. **OCR İşlemi Uygula**: EasyOCR kütüphanesi kullanarak her bir görüntüdeki metinleri tespit eder.
+3. **Sonuçları Kaydet**: Her bir görüntü için OCR sonuçlarını ayrı ayrı `.txt` dosyalarına kaydeder. Bu dosyalar `output` klasöründe saklanır.
+4. **Metin Birleştirme**: Y ekseninde birbirine yakın olan metinleri birleştirerek daha anlamlı sonuçlar elde eder.
+5. **Sonuçları Görselleştir**: İşlenmiş görüntüleri, üzerinde tespit edilen metin kutucuklarıyla birlikte görselleştirir ve gösterir.
 
 ## Gereksinimler
 
